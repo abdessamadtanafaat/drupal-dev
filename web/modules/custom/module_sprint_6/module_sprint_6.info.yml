@@ -1,0 +1,5 @@
+name: 'Module Sprint 6'
+type: module
+description: 'This module for practices mentioned in day 6'
+package: Custom
+core_version_requirement: ^10 || ^11

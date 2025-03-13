@@ -1,0 +1,7 @@
+module_sprint_6.api_articles:
+  path: '/api/articles'
+  defaults:
+    _controller: '\Drupal\module_sprint_6\Controller\ArticleController::getArticles'
+    _title: 'Articles API'
+  requirements:
+    _permission: 'access content'

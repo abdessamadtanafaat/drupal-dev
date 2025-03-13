@@ -170,7 +170,7 @@ parameters:
   # Enabling cacheability debugging is not recommended in production
   # environments.
   # @default false
-  http.response.debug_cacheability_headers: false
+  http.response.debug_cacheability_headers: true
   factory.keyvalue: {}
   # Default key/value storage service to use.
   # @default keyvalue.database
@@ -243,3 +243,4 @@ parameters:
     # This is not applicable when a queue is suspended but does not specify
     # how long to wait before attempting to resume.
     suspendMaximumWait: 30
+
